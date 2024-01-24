@@ -45,11 +45,11 @@ class LinkedList {
         return this.length;
     }
 
-    Head() {
+    head() {
         return this.head;
     }
 
-    Tail() {
+    tail() {
         let currentTail = this.at(this.length - 1);
         return currentTail;
     }
